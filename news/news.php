@@ -15,6 +15,44 @@
   </style>
 </head>
 <body>
+	
+	
+    <!-- NAVBAR    -->
+    <!--
+      esta paete me fue especialmente dificil de hacer funcionar,
+      ya que casi todo los ejemplos son para bootstrap 5.3,
+      mientras que la plantilla es de bootstrap 4.0
+    -->
+      
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(67, 67, 254);">
+			<!-- <a class="navbar-brand" href="#">Mi Sitio</a>  -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav">
+
+				<li class="nav-item active  ">
+				  <a class="nav-link text-white" href="startrek.php">Inicio</a>
+				</li>
+
+				<li class="nav-item dropdown ">
+				  <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Galería de páginas
+				  </a>
+					<!-- cada página se abre en una pestaña nueva -->
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="https://intl.startrek.com/" target="_blank">Sitio oficial de Star Trek</a>
+					<a class="dropdown-item" href="../fibonacci.php" target="_blank">Serie Fibonacci</a>
+					<a class="dropdown-item" href="../cuento.php" target="_blank">Un Cuento para niños</a>
+					  <a class="dropdown-item" href="news.php" target="_blank">Noticias</a>
+				  </div>
+				</li>
+			  </ul>
+			</div>
+		</nav>
+
+	
   <div class="container">
     <h1 class="mt-4 mb-4">Noticias</h1>
 
