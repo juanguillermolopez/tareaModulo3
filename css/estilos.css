@@ -1,0 +1,84 @@
+body{
+    padding: 10px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.bg-primary .container .roe
+
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.jumbotron{
+    background-color: rgb(1, 1, 84);
+    width: 100%;
+}
+
+.jumbotron .h1{
+    font-size: 60px;
+}
+
+.jumbotron .h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+.saludo{
+color: rgb(252, 220, 75);
+font-style: italic;
+}
+
+
+
+
+.subtitulo{
+    color: white;
+}
+
+
+
+
+.centrado{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.color-fondo-1{
+    background-color: rgba(235, 225, 255, 0.823);
+}
+
+.color-fondo-2{
+    background-color: rgba(251, 224, 181, 0.823);
+}
+
+
+.font-blanca{
+    color: white;
+}
+
+
+.footmenu{
+    background-color: blueviolet; 
+    color: white;
+}
+
+
+
