@@ -46,6 +46,7 @@
 					<a class="dropdown-item" href="https://intl.startrek.com/" target="_blank">Sitio oficial de Star Trek</a>
 					<a class="dropdown-item" href="fibonacci.php" target="_blank">Serie Fibonacci</a>
 					<a class="dropdown-item" href="cuento.php" target="_blank">Un Cuento para niños</a>
+					  <a class="dropdown-item" href="news/news.php" target="_blank">Noticias</a>
 				  </div>
 				</li>
 			  </ul>
